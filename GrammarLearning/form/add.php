@@ -6,6 +6,8 @@
  * Time: 下午11:32
  */
 
+var_dump($_REQUEST);
+
 if ($_POST['a']) {
     echo $_POST['a'];
 }
